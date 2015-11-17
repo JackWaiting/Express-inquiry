@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ckd_repeat_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_gravity="center"
+        android:background="@color/ckd_all_title_colors"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快递查询"
+            android:textColor="@drawable/white"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50.0dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/ckd_bt_select"
+                android:layout_width="200.0dip"
+                android:layout_height="42.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/ckd_select_company_btn_page"
+                android:text="选择快递公司"
+                android:textColor="#ff666666"
+                android:textSize="18.0sp" />
+
+            <TextView
+                android:id="@+id/ckd_tv_corpcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/ckd_et_waybill"
+                android:layout_width="200.0dip"
+                android:layout_height="57.0dip"
+                android:background="@drawable/ic_ckd_input_left"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:hint="输入单号或扫描运单号码"
+                android:paddingLeft="10.0dip"
+                android:singleLine="true"
+                android:textSize="16.0sp" />
+
+         	<ImageButton
+                android:id="@+id/ckd_ibt_scanning"
+                android:layout_width="59.0dip"
+                android:layout_height="57.0dip"
+                android:background="@drawable/ckd_zxing_btn_page"
+                android:contentDescription="返回"
+                />
+              
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ff666666"
+                android:textSize="12.0sp" />
+
+            <!-- <Button
+                android:id="@id/ckd_bt_remark"
+                android:layout_width="100.0dip"
+                android:layout_height="40.0dip"
+                android:background="@drawable/ckd_repeat_bg"
+                android:drawableLeft="@drawable/ic_ckd_pencil"
+                android:gravity="center_vertical"
+                android:paddingLeft="5.0dip"
+                android:singleLine="true"
+                android:text="@string/click"
+                android:textColor="#ff666666"
+                android:textSize="12.0sp" />
+                 -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ckd_bt_query"
+                android:layout_width="200.0dip"
+                android:layout_height="57.0dip"
+                android:background="@drawable/ckd_query_btn_page"
+                android:text="查询"
+                android:textColor="@drawable/white"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40.0dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/ckd_tv_avd"
+                android:layout_width="200.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#ff1155cc"
+                android:textSize="18.0sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

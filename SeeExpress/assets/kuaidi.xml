@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	
+	<com>
+		<name>德邦物流</name>
+		<type>debangwuliu</type>
+		<icon>debang</icon>
+		<phone>400-830-5555</phone>
+	</com>
+	
+	<com>
+		<name>EMS快递</name>
+		<type>ems</type>
+		<icon>ems</icon>
+		<phone>11183</phone>
+	</com>
+	
+	<com>
+		<name>国通快递</name>
+		<type>guotongkuaidi</type>
+		<icon>guotong</icon>
+		<phone>400-111-1123</phone>
+	</com>
+	
+	<com>
+		<name>汇通快递</name>
+		<type>huitongkuaidi</type>
+		<icon>huitong</icon>
+		<phone>400-956-5656</phone>
+	</com>
+	
+	
+	<com>
+		<name>佳吉物流</name>
+		<type>jjwl</type>
+		<icon>jiaji</icon>
+		<phone>400-820-5566</phone>
+	</com>
+	
+	<com>
+		<name>快捷速递</name>
+		<type>kuaijiesudi</type>
+		<icon>kuaijie</icon>
+		<phone>400-830-4888</phone>
+	</com>
+	<com>
+		<name>港中能达物流</name>
+		<type>ganzhongnengda</type>
+		<icon>nengda</icon>
+		<phone>400-620-1111</phone>
+	</com>
+	
+	<com>
+		<name>龙邦快递</name>
+		<type>longbanwuliu</type>
+		<icon>longbang</icon>
+		<phone>021-59218889</phone>
+	</com>
+	
+	<com>
+		<name>全峰快递</name>
+		<type>quanfengkuaidi</type>
+		<icon>quanfeng</icon>
+		<phone>400-100-0001</phone>
+	</com>
+	
+	<com>
+		<name>申通快递</name>
+		<type>shentong</type>
+		<icon>shentong</icon>
+		<phone>400-8895-543</phone>
+	</com>
+	<com>
+		<name>顺丰速运</name>
+		<type>shunfeng</type>
+		<icon>shunfeng</icon>
+		<phone>400-8111-111</phone>
+	</com>
+	<com>
+		<name>速尔快递</name>
+		<type>sue</type>
+		<icon>suer</icon>
+		<phone>400-158-9888</phone>
+	</com>
+	
+	<com>
+		<name>天地华宇</name>
+		<type>tiandihuayu</type>
+		<icon>huayu</icon>
+		<phone>400-808-6666</phone>
+	</com>
+	<com>
+		<name>天天快递</name>
+		<type>tiantian</type>
+		<icon>tiantian</icon>
+		<phone>400-188-8888</phone>
+	</com>
+	
+	<com>
+		<name>邮政包裹挂号信</name>
+		<type>youzhengguonei</type>
+		<icon>post</icon>
+		<phone>11183</phone>
+	</com>
+	<com>
+		<name>优速物流</name>
+		<type>youshuwuliu</type>
+		<icon>yousu</icon>
+		<phone>400-1111-119</phone>
+	</com>
+	
+	<com>
+		<name>圆通速递</name>
+		<type>yuantong</type>
+		<icon>yuantong</icon>
+		<phone>400-6095-554</phone>
+	</com>
+	<com>
+		<name>韵达快递</name>
+		<type>yunda</type>
+		<icon>yunda</icon>
+		<phone>400-8216-789</phone>
+	</com>
+	
+	<com>
+		<name>宅急送</name>
+		<type>zhaijisong</type>
+		<icon>zhaijisong</icon>
+		<phone>400-6789-000</phone>
+	</com>
+	
+	<com>
+		<name>中通速递</name>
+		<type>zhongtong</type>
+		<icon>zhongtong</icon>
+		<phone>400-8270-270</phone>
+	</com>
+	
+</root>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.4"
+    android:background="@drawable/courseappwidget"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvClassInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black" />
+    <!-- 第一節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/whatLesson"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第二節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/whatLesson1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第三節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/whatLesson2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第四節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/whatLesson3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第五節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/whatLesson4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第六節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/whatLesson5"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime5"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject5"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace5"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第七節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/whatLesson6"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime6"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject6"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace6"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第八節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/whatLesson7"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime7"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject7"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace7"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第九節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip"
+        android:textColor="@android:color/black" >
+
+        <TextView
+            android:id="@+id/whatLesson8"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime8"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject8"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace8"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 第10節課 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dip"
+        android:textColor="@android:color/black" >
+
+        <TextView
+            android:id="@+id/whatLesson9"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classTime9"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classSubject9"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dip"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/classPlace9"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

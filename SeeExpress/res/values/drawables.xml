@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="w">#ffefefef</item>
+    <item type="drawable" name="whi">#ffff0000</item>
+    <item type="drawable" name="grey">#40000000</item>
+    <item type="drawable" name="blue">#ffc1c1c1</item>
+    <item type="drawable" name="list_background_colors_down">#00000000</item>
+    <item type="drawable" name="first_btn_colors_up">#e0000000</item>
+    <item type="drawable" name="green">#ff00ff00</item>
+</resources>

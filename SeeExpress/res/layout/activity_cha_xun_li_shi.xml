@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ckd_repeat_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/ckd_all_title_colors" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="查询历史"
+            android:textColor="@drawable/white"
+            android:textSize="20.0sp" />
+    </RelativeLayout>
+
+    
+
+    <LinearLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ckd_repeat_bg"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/bottom_text"
+            android:dividerHeight="1px"
+            android:fastScrollEnabled="false"
+            android:focusable="true" />
+    </LinearLayout>
+
+   
+</LinearLayout>

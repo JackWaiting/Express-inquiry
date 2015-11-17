@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- tileMode  
+	平铺，效果类似于让小图不是拉伸而是多个重复（类似于一张小图多个重复平铺电脑桌面的效果）
+ -->
+<bitmap android:src="@drawable/ic_ckd_base_bg" android:tileMode="repeat"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
